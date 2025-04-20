@@ -10,16 +10,14 @@ export const metadata = {
   description: "Your one-stop solution for overseas education guidance",
 };
 
-export default function RootLayout({
-  children,
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <body className={`${inter.className} bg-white text-gray-800`}>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </body>
-  </html>
+      <body className={`${inter.className} bg-white text-gray-800 overflow-x-hidden w-full max-w-full`}>
+        <Navbar />
+        <main className="w-full max-w-full overflow-x-hidden">{children}</main>
+        <Footer />
+      </body>
+    </html>
   );
 }

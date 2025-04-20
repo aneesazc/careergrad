@@ -6,7 +6,7 @@ import { FiArrowRight } from 'react-icons/fi';
 
 export default function Hero() {
     return (
-        <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        <section className="relative h-screen flex items-center justify-center overflow-hidden w-full">
             {/* Background with gradient and overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-indigo-900 via-purple-800 to-indigo-900 bg-fixed">
                 <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10"></div>
@@ -88,12 +88,12 @@ export default function Hero() {
             />
 
             {/* Content */}
-            <div className="container mx-auto px-4 z-10 text-center">
+            <div className="container mx-auto px-0 sm:px-4 z-10 text-center w-full">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="relative z-10"
+                    className="relative z-10 w-full"
                 >
                     <motion.h3
                         initial={{ opacity: 0 }}
@@ -137,7 +137,7 @@ export default function Hero() {
                         transition={{ delay: 1, duration: 0.8 }}
                         className="flex flex-wrap justify-center gap-4"
                     >
-                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSehIuDF5kuiM0rjvELIWha-czzpV9rzZf-kwhi0PZPA1t0-oA/viewform" className="group" target='_blank'>
+                        <Link href="#" className="group">
                             <motion.div
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.98 }}

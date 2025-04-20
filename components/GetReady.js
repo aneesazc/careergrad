@@ -90,12 +90,12 @@ export default function GetReady() {
     ];
 
     return (
-        <section className="py-24 relative overflow-hidden bg-gradient-to-b from-white to-indigo-50">
+        <section className="py-24 relative overflow-hidden w-full bg-gradient-to-b from-white to-indigo-50">
             {/* Background decorator elements */}
             <div className="absolute -top-32 -left-32 w-64 h-64 bg-indigo-200 rounded-full opacity-30 blur-3xl"></div>
             <div className="absolute top-1/3 right-0 w-48 h-48 bg-purple-200 rounded-full opacity-40 blur-2xl"></div>
 
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 w-full">
                 {/* Section heading with animation */}
                 <div ref={ref} className="text-center mb-16">
                     <motion.span

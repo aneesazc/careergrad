@@ -90,13 +90,13 @@ export default function Services() {
   ];
 
   return (
-    <section className="py-24 relative overflow-hidden" id="services">
+    <section className="py-24 relative overflow-hidden w-full" id="services">
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-96 bg-gradient-to-b from-indigo-50 to-transparent -z-10" />
       <div className="absolute -top-40 -right-40 w-96 h-96 bg-indigo-100 rounded-full opacity-30 -z-10" />
       <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-purple-100 rounded-full opacity-30 -z-10" />
       
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 w-full">
         <div ref={ref} className="text-center mb-20">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}

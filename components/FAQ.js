@@ -105,12 +105,12 @@ export default function FAQ() {
     };
 
     return (
-        <section className="py-24 relative bg-gradient-to-b from-indigo-50 to-white" id="faq">
+        <section className="py-24 relative w-full bg-gradient-to-b from-indigo-50 to-white" id="faq">
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-72 h-72 bg-indigo-100 rounded-full opacity-30 -z-10 blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-100 rounded-full opacity-30 -z-10 blur-3xl"></div>
 
-            <div className="container mx-auto px-4 max-w-4xl relative z-10">
+            <div className="container mx-auto px-4 max-w-4xl relative z-10 w-full">
                 {/* Section heading with animation */}
                 <div ref={ref} className="text-center mb-16">
                     <motion.div
