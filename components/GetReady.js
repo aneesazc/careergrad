@@ -129,7 +129,7 @@ export default function GetReady() {
                         animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
-                        Dream big. Study abroad. Achieve more. That's what CareerGrad Global can help you do.
+                        Dream big. Study abroad. Achieve more. That&apos;s what CareerGrad Global can help you do.
                         We are your one-stop solution for overseas education guidance.
                     </motion.p>
                 </div>
