@@ -137,7 +137,7 @@ export default function Hero() {
                         transition={{ delay: 1, duration: 0.8 }}
                         className="flex flex-wrap justify-center gap-4"
                     >
-                        <Link href="#" className="group">
+                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSehIuDF5kuiM0rjvELIWha-czzpV9rzZf-kwhi0PZPA1t0-oA/viewform" className="group" target='_blank'>
                             <motion.div
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.98 }}
